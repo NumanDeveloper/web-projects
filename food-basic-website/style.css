@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+#img-fluid{
+    max-width: 100%;
+}
+.hero-img{
+    background: url(img/hero-img.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;  /* view port height mean visible height */
+    position: relative;
+}
+
+.hero-wrapper{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* text-align: center; */
+    transform: translate(-50%, -50%);
+}
+
+.hero-wrapper h1{
+    font-size: 2.4rem;
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+form .input-box{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .6rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+}
+
+form button{
+    width: 40%;
+    background-color: #00bab1;
+    color: #fff;
+    padding: 0.6rem;
+    border: none;
+    border-radius: .3rem;
+    margin: 1rem auto 0rem; /* top left right bottom */
+}
+
+form label{
+    display: inline-block;
+    position: relative;
+    right: 35%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#products{
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.product-item{
+    float: left;
+    width: 32%;
+    margin-left: 0.5rem;
+}
+
+.product-item button{
+    margin: 1rem 0;
+    border-radius: 1rem;
+    background-color: tomato;
+    color: #fff;
+    padding: .5rem;
+    border: 2px solid black;
+}
+
+.product-item button:hover{
+    background: none;
+    color: #000;
+    border: 2px solid black;
+}

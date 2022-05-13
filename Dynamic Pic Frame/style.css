@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aff6ff;
+    flex-direction: column;
+}
+.border{
+    background-color: #E3C381;
+    padding: 45px;
+}
+.padding{
+    background-color: #b7c47f;
+    padding: 45px;
+}
+.content{
+    background-color: #87B2BD;
+    padding: 45px;
+    font-size: 78px;
+}
+#inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* utility classes */
+.text-center{
+    text-align: center;
+}

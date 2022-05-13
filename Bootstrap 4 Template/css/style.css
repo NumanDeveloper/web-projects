@@ -1,0 +1,147 @@
+a:hover{
+    text-decoration: none;
+}
+
+/* making a thin line below every heading */
+section .heading:after{
+    background: #e74c3c;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+
+/* navigation sec start */
+#header{
+    color: #fff;
+    background-color: #e74c3c;
+}
+
+#logo{
+    font-size: 2rem;
+}
+
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* aligning all the links in one line */
+#menu li{
+    display: inline-block;
+}
+
+#menu li a{
+    color: #fff;
+    padding: 15px 10px;
+    display: block;
+}
+
+#menu li a:hover{
+    background-color: #c0392b;
+}
+
+/* navigation sec end */
+
+
+/* banner sec start */
+#banner{
+    background: url(../img/banner.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+.banner-text .banner-title{
+    /* making a bit transparent */
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
+    /* removing default margin value */
+    margin: 0;
+}
+.banner-text p.lead{
+    color: #fff;
+    background: rgba(231, 76, 60, 0.7);
+    padding: 10px;
+}
+/* banner sec end */
+
+/* services sec start */
+#services i.bi{
+    color: #e74c3c;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+/* services sec end */
+
+/* testimonials sec start */
+#testimonials{
+    background: url(../img/testimonial-bg.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+#testimonials:content{ /*this is still confusing*/
+    background: rgba(52, 73, 94, 0.7);
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+#testimonials img{
+    border-radius: 50px;
+}
+/* testimonials sec end */
+
+/* News sec start */
+#news .news-post a{
+    color: #e74c3c;
+}
+/* News sec end */
+
+/* Footer sec start */
+#footer-sidebar{
+    color: #fff;
+    background: #34495e;
+}
+
+/* making a thin line below every heading */
+#footer-sidebar .footer-widget h4:after{
+    background: #fff;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    margin: 5px 0;
+}
+#footer-sidebar .footer-widget ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#footer-sidebar .footer-widget a{
+    color: #fff;
+}
+
+#footer{
+    color: #fff;
+    background: #2c3e50;
+    padding: 10px 0;
+}
+/* Footer sec end */
+
+
+/* Media Queries here */
+/* @media (min-width: 768px){
+    #testimonials{
+        text-align: center;
+    }
+    .footer-widget{
+        margin-bottom: 20px;
+    }
+    #footer{
+        text-align: center;
+    }
+    .social-icons{
+        margin-top: 10px;
+    }
+} */

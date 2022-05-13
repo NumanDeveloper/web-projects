@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum Of Candy</title>
+    <!-- Google Fonts Link -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+
+    <!-- <h1>Bootstrap 4 Navbar</h1> -->
+    <!-- py-0 class will remove all padding from top and bottom. py stands for padding in y-axis -->
+    <!-- fixed-top class will make navbar stick to the top even while scrolling down -->
+    <nav id="mainNavbar" class="navbar navbar-expand-md navbar-dark py=0 fixed-top">
+        <a class="navbar-brand" href="#">CANDY</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navLinks"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">TICKETS</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Navbar ended, Grid starts here -->
+    <section class="container px-0">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <!-- d-none class hides the content completely, but d-lg-block class makes content to show in large screen -->
+                <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
+                    <h1>Museum<span>/</span>of<span>/</span>Candy</h1>
+                    <h1>Museum<span>/</span>of<span>/</span>Candy</h1>
+                    <h1>Museum<span>/</span>of<span>/</span>Candy</h1>
+                    <h1>Museum<span>/</span>of<span>/</span>Candy</h1>
+                    <h1>Museum<span>/</span>of<span>/</span>Candy</h1>
+                    <h1>Museum<span>/</span>of<span>/</span>Candy</h1>
+                    <h1>Museum<span>/</span>of<span>/</span>Candy</h1>
+                </div>
+            </div>
+            <div class="col-md-6 px-0">
+                <!-- img-fluid class -> image responsiveness -->
+                <img class="img-fluid" src="hand.png" srcset="imgs/hand2__xs@2.jpg 2x" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- 2nd Section -->
+    <section class="container px-0">
+        <div class="row align-items-center content">
+            <div class="col-md-6 order-2 order-md-1">
+                <img src="milk.jpg" alt="">
+            </div>
+            <div class="col-6 order-1 order-md-2">
+                <div class="row text-center justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <h2>Museum of Candy</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi pariatur
+                            laboriosam illo vero impedit fugit eos in? Corporis voluptate doloremque consequuntur veniam
+                            suscipit dolorum, cum explicabo error excepturi in architecto quos dolore aperiam vitae
+                            illo, vero accusamus fuga, ipsam nihil a tempore aut ea? Nulla quod natus quos ab fuga?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- This is third section -->
+        <div class="row align-items-center content">
+
+            <div class="col-6">
+                <div class="row text-center justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <h2>Museum of Candy</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi pariatur
+                            laboriosam illo vero impedit fugit eos in? Corporis voluptate doloremque consequuntur veniam
+                            suscipit dolorum, cum explicabo error excepturi in architecto quos dolore aperiam vitae
+                            illo, vero accusamus fuga, ipsam nihil a tempore aut ea? Nulla quod natus quos ab fuga?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="gumball.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="row align-items-center content">
+            <div class="col-md-6 order-2 order-md-1">
+                <img src="sprinkles.jpg" alt="">
+            </div>
+            <div class="col-6 order-1 order-md-2">
+                <div class="row text-center justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <h2>Museum of Candy</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi pariatur
+                            laboriosam illo vero impedit fugit eos in? Corporis voluptate doloremque consequuntur veniam
+                            suscipit dolorum, cum explicabo error excepturi in architecto quos dolore aperiam vitae
+                            illo, vero accusamus fuga, ipsam nihil a tempore aut ea? Nulla quod natus quos ab fuga?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
