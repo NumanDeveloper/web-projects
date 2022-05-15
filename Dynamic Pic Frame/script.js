@@ -12,22 +12,22 @@ let paddingBox = document.querySelector(".padding");
 let contentBox = document.querySelector(".content");
 
 // Let's attach event listeners
-borderRange.addEventListener("change", ()=>{
+borderRange.addEventListener("change", () => {
     borderBox.style.padding = borderRange.value + "px"
 })
-paddingRange.addEventListener("change", ()=>{
+paddingRange.addEventListener("change", () => {
     paddingBox.style.padding = paddingRange.value + "px"
 })
-contentRange.addEventListener("change", ()=>{
+contentRange.addEventListener("change", () => {
     contentBox.style.padding = contentRange.value + "px"
 })
 
-borderColor.addEventListener("change", ()=>{
+borderColor.addEventListener("change", () => {
     borderBox.style.backgroundColor = borderColor.value
 })
-paddingColor.addEventListener("change", ()=>{
+paddingColor.addEventListener("change", () => {
     paddingBox.style.backgroundColor = paddingColor.value
 })
-contentColor.addEventListener("change", ()=>{
+contentColor.addEventListener("change", () => {
     contentBox.style.backgroundColor = contentColor.value
 })
