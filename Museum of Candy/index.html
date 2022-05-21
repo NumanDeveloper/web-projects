@@ -14,28 +14,23 @@
 </head>
 
 <body>
-
-
-    <!-- <h1>Bootstrap 4 Navbar</h1> -->
-    <!-- py-0 class will remove all padding from top and bottom. py stands for padding in y-axis -->
-    <!-- fixed-top class will make navbar stick to the top even while scrolling down -->
-    <nav id="mainNavbar" class="navbar navbar-expand-md navbar-dark py=0 fixed-top">
-        <a class="navbar-brand" href="#">CANDY</a>
+    <nav id="mainNavbar" class="navbar navbar-expand-md py-0 fixed-top">
+        <a class="navbar-brand" href="#">Candy</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navLinks"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navLinks">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT</a>
+                    <a class="nav-link" href="#">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">TICKETS</a>
+                    <a class="nav-link" href="#">Tickets</a>
                 </li>
             </ul>
         </div>
@@ -43,10 +38,9 @@
 
     <!-- Navbar ended, Grid starts here -->
     <section class="container px-0">
-        <div class="row align-items-center">
+        <div class="row align-items-center mt-5">
             <div class="col-md-6">
-                <!-- d-none class hides the content completely, but d-lg-block class makes content to show in large screen -->
-                <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
+                <div id="headingGroup" class="text-white text-center d-none d-lg-block">
                     <h1>Museum<span>/</span>of<span>/</span>Candy</h1>
                     <h1>Museum<span>/</span>of<span>/</span>Candy</h1>
                     <h1>Museum<span>/</span>of<span>/</span>Candy</h1>
@@ -56,22 +50,18 @@
                     <h1>Museum<span>/</span>of<span>/</span>Candy</h1>
                 </div>
             </div>
-            <div class="col-md-6 px-0">
-                <!-- img-fluid class -> image responsiveness -->
-                <img class="img-fluid" src="hand.png" srcset="imgs/hand2__xs@2.jpg 2x" alt="">
+            <div class="col-12 col-md-6 px-0">
+                <img class="img-fluid" src="img/hand.png" alt="">
             </div>
         </div>
     </section>
 
     <!-- 2nd Section -->
-    <section class="container px-0">
-        <div class="row align-items-center content">
-            <div class="col-md-6 order-2 order-md-1">
-                <img src="milk.jpg" alt="">
-            </div>
-            <div class="col-6 order-1 order-md-2">
+    <section class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-6 order-2">
                 <div class="row text-center justify-content-center">
-                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                    <div class="col-10 col-lg-8 mb-5 mb-md-0">
                         <h2>Museum of Candy</h2>
                         <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi pariatur
                             laboriosam illo vero impedit fugit eos in? Corporis voluptate doloremque consequuntur veniam
@@ -79,15 +69,17 @@
                             illo, vero accusamus fuga, ipsam nihil a tempore aut ea? Nulla quod natus quos ab fuga?</p>
                     </div>
                 </div>
+            </div>
+            <div class="col-12 col-md-6 justify-content-center order-1">
+                <img src="img/milk.jpg" alt="">
             </div>
         </div>
 
         <!-- This is third section -->
-        <div class="row align-items-center content">
-
-            <div class="col-6">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-6">
                 <div class="row text-center justify-content-center">
-                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                    <div class="col-10 col-lg-8 mb-5 mb-md-0">
                         <h2>Museum of Candy</h2>
                         <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi pariatur
                             laboriosam illo vero impedit fugit eos in? Corporis voluptate doloremque consequuntur veniam
@@ -96,18 +88,18 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <img src="gumball.jpg" alt="">
+            <div class="col-12 col-md-6">
+                <img src="img/gumball.jpg" alt="">
             </div>
         </div>
 
-        <div class="row align-items-center content">
+        <div class="row align-items-center">
             <div class="col-md-6 order-2 order-md-1">
-                <img src="sprinkles.jpg" alt="">
+                <img src="img/sprinkles.jpg" alt="">
             </div>
             <div class="col-6 order-1 order-md-2">
                 <div class="row text-center justify-content-center">
-                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                    <div class="col-10 col-lg-8 mb-5 mb-md-0">
                         <h2>Museum of Candy</h2>
                         <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi pariatur
                             laboriosam illo vero impedit fugit eos in? Corporis voluptate doloremque consequuntur veniam
